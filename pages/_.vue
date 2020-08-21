@@ -1,6 +1,6 @@
 <template>
     <div>
-        22222
+        顶顶顶顶
     </div>
 </template>
 <script>
