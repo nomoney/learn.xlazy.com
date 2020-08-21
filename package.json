@@ -1,0 +1,35 @@
+{
+  "name": "learn.xlazy.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomoney/learn.xlazy.com.git"
+  },
+  "author": "410406130@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nomoney/learn.xlazy.com/issues"
+  },
+  "homepage": "https://github.com/nomoney/learn.xlazy.com#readme",
+  "dependencies": {
+    "@nuxt/content": "^1.6.1",
+    "nuxt": "^2.14.3",
+    "push-dir": "^0.4.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^9.0.3",
+    "tailwindcss-dark-mode": "^1.1.6"
+  }
+}
