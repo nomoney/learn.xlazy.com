@@ -10,7 +10,7 @@ export default {
     async asyncData({$content, params}){
         const docs = await $content(params.pathMatch || 'index').fetch()
 
-
+        console.log(docs);
         return {docs}
     }
 }
